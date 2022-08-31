@@ -22,7 +22,7 @@
     background-position: center;
 }
 
-.Particulars__title {
+.particulars__title {
     margin-top: 30px;
 font-weight: 700;
 font-size: 14px;
@@ -31,10 +31,26 @@ text-transform: uppercase;
 color:var(--secondary-title-color);
 }
 
-.Particulars__text {
+.particulars__text {
 font-size: 14px;
 line-height: 1.71;
 color:var(--text-color);
 max-width: 270px;
 margin-top: 10px;
+}
+
+.icon-antenna::before {
+background-image: url(../img/antenna.svg);
+}
+
+.icon-clock::before {
+background-image: url(../img/clock.svg);
+}
+
+.icon-diagram::before {
+background-image: url(../img/diagram.svg);
+}
+
+.icon-astronaut::before {
+background-image: url(../img/astronaut.svg);
 }

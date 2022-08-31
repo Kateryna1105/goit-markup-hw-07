@@ -18,31 +18,5 @@ color: #FFFFFF;
     margin-left: 93px;
     }
 
-.subscribe-btn {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 200px;
-height: 50px;
-letter-spacing: 0.06em;
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-color: #FFFFFF;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
-&::after {
-    content: '';
-    display: block;    
-    margin-left: 10px;
-    width: 24px;
-    height: 24px;
-   background-image: url(../img/icon-send.png);
-   background-size: contain;
-   background-position: center;
-      }
-}
+
 
